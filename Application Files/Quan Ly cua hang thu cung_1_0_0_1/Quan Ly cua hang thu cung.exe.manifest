@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Quan Ly cua hang thu cung.exe" version="1.0.0.1" publicKeyToken="c890197f872c0745" language="vi-VN" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="free-30-instagram-stories-icons53_122600.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Quan Ly cua hang thu cung" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Quan Ly cua hang thu cung.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Guna.UI2.dll" size="2160008">
+      <assemblyIdentity name="Guna.UI2" version="2.0.4.5" publicKeyToken="8B9D14AA5142E261" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9Ebz2u12+k0f394eAOk0jO2RhTZiupU+m+uPCsZFASY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Quan Ly cua hang thu cung.exe" size="2384864">
+      <assemblyIdentity name="Quan Ly cua hang thu cung" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wW41JLerm3Tp2U2vXL5y1x5H4Qv5gQcpDxvwzw/YMW8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="dbPetShop.mdf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wSURMlbRly5KeT0ib2UV/Bfib1xmKEsqI7Yx0XmxNAI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dbPetShop_log.ldf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fYfm1yxk4FK50Hw6iRwuHpPv6fN1Vd1+XSZ7OQ7NGPE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="free-30-instagram-stories-icons53_122600.ico" size="4154">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tfSImK22y270LAf1bE7Kh4RrLHMYW6tZxnlBRTRhSjg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Quan Ly cua hang thu cung.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-R2J8ANU\manht" issuerKeyHash="663837678dd1662781b6fff468c1734a5ac1dd57" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>itEzqGHTKkMFNIdCoVqdeGV7DM5DuDrz64UqAX3Vu04=</DigestValue></Reference></SignedInfo><SignatureValue>jOa71mOnu+QzvWhsOJG8+hQ57ntzDoNl3ZZ5JZxGVzq130+CeqeLU6Spd3LRthxHwX8EP5EPpHffrAR/LtJHYZpccwxBW/ZiycpYWwqwGFgY3p1+PJnO5lAcJ4sPAB9LP2R5i1CnOKnIt31Rir+VWxTmKy/naoiXP3YJvrrb3WA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>6Gg2kQNfll1u7fGIovcEVh9XwMkeedKtLkpSNv+yUldWQwDeBggjcOuXYvtKVBUM01t92LPq5v10fXVVpnbCO6d9zzxCGc/ljwKYTMgIcJ/GnMoHIQNunDxz81uuDNU/9ABgIhFMwT3fW0nY/lgyCByNbOWoZGEr+/qsTSV6CkE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4ebbd57d012a85ebf33ab843ce0c7b65789d5aa142873405432ad361a833d18a" Description="" Url=""><as:assemblyIdentity name="Quan Ly cua hang thu cung.exe" version="1.0.0.1" publicKeyToken="c890197f872c0745" language="vi-VN" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-R2J8ANU\manht</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/xmY5pz/2g1QDNXD3DhL6LEh+91aEOhdByy64xINXu4=</DigestValue></Reference></SignedInfo><SignatureValue>glCMairvoP3A3gYJDZuOX9TYkrJB2o144haj/WlEd2yNnl84ONkgfqRF2tgn1/3aMJ35hGfRcg+ob4uSDNzND8iYbFtvKMdAmXCH3VltTmZ0k+gF1o/Q+wHe4vfnPsJnNheCzgtZAFhh38rH4Trpk8gSDvr9lF8xoXizsp0eNJQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>6Gg2kQNfll1u7fGIovcEVh9XwMkeedKtLkpSNv+yUldWQwDeBggjcOuXYvtKVBUM01t92LPq5v10fXVVpnbCO6d9zzxCGc/ljwKYTMgIcJ/GnMoHIQNunDxz81uuDNU/9ABgIhFMwT3fW0nY/lgyCByNbOWoZGEr+/qsTSV6CkE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQfafDuVPVi7dBaPuRBbMbFDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFIAMgBKADgAQQBOAFUAXABtAGEAbgBoAHQwHhcNMjMxMTE3MjExMTI3WhcNMjQxMTE3MDMxMTI3WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFIAMgBKADgAQQBOAFUAXABtAGEAbgBoAHQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOhoNpEDX5Zdbu3xiKL3BFYfV8DJHnnSrS5KUjb/slJXVkMA3gYII3Drl2L7SlQVDNNbfdiz6ub9dH11VaZ2wjunfc88QhnP5Y8CmEzICHCfxpzKByEDbpw8c/NbrgzVP/QAYCIRTME931tJ2P5YMggcjWzlqGRhK/v6rE0legpBAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAyEdjYLePfZKYqfmwKWONYZizXkc5XgCyT81LesbxyTVA3GqBDnch8jyWX21Msfx/bnBweldKnJ+xbgHLFy6FwKPd2JKI5xY1BHfRms5movhcJ3hH7/Ygy4luCIcQ1zQVTH9u8vqaUvEghJtdpeHP+vyg9SZeboNYJcFpRnP3vjM=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
